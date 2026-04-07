@@ -1,0 +1,31 @@
+{
+  "id": "kit-granos",
+  "version": "1.0.0",
+  "apiVersion": "2.0",
+  "assets": {
+    "styles": [
+      "./dist/assets/tailwind.css",
+      "./dist/assets/fontawesome/css/all.min.css"
+    ]
+  },
+  "contributes": {
+    "menus": [
+      {
+        "path": "Dashboard",
+        "order": 0,
+        "viewId": "kit-granos.dashboard.open",
+        "icon": "assets/icons/dashboard.svg",
+        "color": "#16a34a"
+      }
+    ],
+    "views": [
+      {
+        "id": "kit-granos.dashboard.open",
+        "title": "Dashboard",
+        "component": "./dist/views/dashboard/index.js",
+        "export": "DashboardView"
+      }
+    ],
+    "repositories": []
+  }
+}

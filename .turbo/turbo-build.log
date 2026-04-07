@@ -1,0 +1,39 @@
+
+> @coongro/kit-granos@1.0.0 build C:\Users\3kito\Desktop\Coongro\app web\plugins\kit-granos
+> npm run build:css && npm run copy:fontawesome && tsc
+
+npm warn Unknown env config "network-timeout". This will stop working in the next major version of npm.
+npm warn Unknown env config "node-linker". This will stop working in the next major version of npm.
+npm warn Unknown env config "shamefully-hoist". This will stop working in the next major version of npm.
+npm warn Unknown env config "_coongro-registry". This will stop working in the next major version of npm.
+npm warn Unknown env config "_-localhost-4873--email". This will stop working in the next major version of npm.
+npm warn Unknown env config "_-localhost-4873--username". This will stop working in the next major version of npm.
+npm warn config ignoring workspace config at C:\Users\3kito\Desktop\Coongro\app web\plugins\kit-granos/.npmrc
+npm warn Unknown project config "node-linker". This will stop working in the next major version of npm.
+npm warn Unknown project config "shamefully-hoist". This will stop working in the next major version of npm.
+npm warn Unknown project config "network-timeout". This will stop working in the next major version of npm.
+
+> @coongro/kit-granos@1.0.0 build:css
+> tailwindcss -c tailwind.config.cjs -i ./src/styles/tailwind.css -o ./dist/assets/tailwind.css --minify
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+Rebuilding...
+
+Done in 2478ms.
+npm warn Unknown env config "network-timeout". This will stop working in the next major version of npm.
+npm warn Unknown env config "node-linker". This will stop working in the next major version of npm.
+npm warn Unknown env config "shamefully-hoist". This will stop working in the next major version of npm.
+npm warn Unknown env config "_coongro-registry". This will stop working in the next major version of npm.
+npm warn Unknown env config "_-localhost-4873--email". This will stop working in the next major version of npm.
+npm warn Unknown env config "_-localhost-4873--username". This will stop working in the next major version of npm.
+npm warn config ignoring workspace config at C:\Users\3kito\Desktop\Coongro\app web\plugins\kit-granos/.npmrc
+npm warn Unknown project config "node-linker". This will stop working in the next major version of npm.
+npm warn Unknown project config "shamefully-hoist". This will stop working in the next major version of npm.
+npm warn Unknown project config "network-timeout". This will stop working in the next major version of npm.
+
+> @coongro/kit-granos@1.0.0 copy:fontawesome
+> node scripts/copy-fontawesome.cjs
+
